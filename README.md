@@ -1,10 +1,10 @@
 # scrapbox2esa
 
-scrapboxから取得したページをesaにインポートするツールです。
+scrapboxから取得したページをesa.ioにインポートするツールです。
 
 ## 使い方
 1. Scrapbox Settings>Page Data>Export Pages
-2. Scrapboxのアクセストークンを取得
+2. esa.ioのアクセストークンを取得
 3. アクセストークンを環境変数`ESA_ACCESS_TOKEN`に設定
 4. `go main.go TeamName PageDataFilePath`
 
